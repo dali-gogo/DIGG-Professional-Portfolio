@@ -9,7 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #BCD0EE;
+    background-color: #ebe4f4;
     margin-bottom: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -40,7 +40,7 @@ header nav {
     padding-top: 30px;
     float: right;
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
 
@@ -54,7 +54,7 @@ header nav ul li {
 }
 
 a{
-    color: #13CBB5;
+    color: #5b0fac;
 }
 
 main{
@@ -63,6 +63,11 @@ main{
 }
 
 /* style for background, including background image below the header*/
+
+.navigation{
+    color: #13CBB5;
+}
+
 
 .background {
     position: relative;
@@ -91,7 +96,7 @@ main{
     margin-right: 200px;
     margin-bottom: 5px;
     padding: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: #3C3C52;
 }
 
@@ -102,7 +107,7 @@ main{
     margin-top: 40px;
     margin-left: 200px;
     color:#3C3C52;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 /* styling for the information from each section */
@@ -117,7 +122,7 @@ main{
     padding-bottom: 10px;
     text-align: justify;
     color:#3C3C52;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 main nav ul {
@@ -137,52 +142,78 @@ main nav ul li {
     margin-bottom: 20px;
     background-image: url("../images/horiseon.jpg");
     background-position: center;
-    border: 10px solid #13CBB5;
+    border: 10px solid #5b0fac;
 }
 
-#projectHoriseon{ D
+#projectHoriseon{ 
     font-size: 30px;
     padding-top: 200px;
     padding-left: 10px;
-    color:#808080;
+    color:hsl(336, 41%, 53%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .projectDetails{
     font-size: 20px;
     padding-left: 10px;
-    color:#808080;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:hsl(336, 41%, 53%);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-#led-wall {
+#payroll {
     object-position: 200px 100px;
     margin-left: 500px;
     height: 200px;
     width: 25%;
     margin-bottom: 20px;
-    background-image: url("../images/led-wall.jpg");
-    background-position: 25% 75%;
-    border: 10px solid #13CBB5;
+    background-image: url("../images/money.png");
+    background-position: 10% 75%;
+    border: 10px solid #5b0fac;
 }
 
 .projects{
     font-size: 30px;
     padding-top: 120px;
     padding-left: 10px;
-    color:#808080;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:hsl(336, 41%, 53%);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-#calculator {
+#blog {
     margin-top: -220px;
-    margin-left: 1000px;
+    margin-left: 1040px;
     height: 200px;
     width: 25%;
     margin-bottom: 20px;
-    background-image: url("../images/calculator.jpeg");
-    background-position: 25% 75%;
-    border: 10px solid #13CBB5;
+    background-image: url("../images/blog.jpg");
+    background-position: 75% 10%;
+    border: 10px solid #5b0fac;
+}
+
+#moviesPlatform {
+    margin-top: 200px 100px;
+    margin-left: 500px;
+    height: 300px;
+    width: 60%;
+    margin-bottom: 20px;
+    background-image: url("../images/dasWohnzimmer.png");
+    background-position: 50% 10%;
+    border: 10px solid #5b0fac;
+}
+
+.dasWohnzimmer{
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 10px;
+    color:hsl(336, 41%, 53%);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.wohnzimmer{
+    font-size: 20px;
+    padding-left: 10px;
+    color:hsl(336, 41%, 53%);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
